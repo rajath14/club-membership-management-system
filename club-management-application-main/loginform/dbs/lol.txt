@@ -1,0 +1,15 @@
+role="document"
+
+<form method = "POST" enctype = "multipart/form-data">
+
+
+$clubname=$_POST['club_name'];
+$items="select * from clubs where club_name='$clubname'";
+$item_run=mysqli_query($con,$items);
+if(mysqli_num_rows($item_run)>0){
+    
+    echo '<script> alert("Club Already exits"); </script>';
+    
+    header('Location: clubs.php');
+    
+}

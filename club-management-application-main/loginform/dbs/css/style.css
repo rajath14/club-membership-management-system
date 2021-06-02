@@ -1,0 +1,46 @@
+/* Add your styles here */
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  background: url(../img/plp.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+h1{
+  color: rgb(255, 251, 0);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: 00A7F7;
+}
+container{
+  background-color: rgb(232, 236, 5);
+}
